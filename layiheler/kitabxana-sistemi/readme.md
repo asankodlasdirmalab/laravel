@@ -146,3 +146,5 @@ axtaris_goster() - Axtarıs formunu göstərəck (GET)
 axtaris() - Axtarıs nəticələrini filterləyib göstərəcək (POST) 
 
 ## Tapşırıq 7: web.php - də route-ları yaradın
+
+Qeyd: Bu layihe Dərs 6-ya qədər olan mövzuları əhatə edir
