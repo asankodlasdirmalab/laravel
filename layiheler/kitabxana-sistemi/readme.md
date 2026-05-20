@@ -12,9 +12,9 @@
 
 ---
 
-## 📋 Tapşırıq 1: Modellər və migration ları yaradın
+## Tapşırıq 1: Modellər və migration ları yaradın
 
-## 📋 Tapşırıq 2: migration-lara aşağıdakı columnaları əlavə edin və databazaya əlavə edin
+## Tapşırıq 2: migration-lara aşağıdakı columnaları əlavə edin və databazaya əlavə edin
 
 **Authors:** Müəlliflər
 
@@ -40,9 +40,9 @@
     $table->string('telefon');
 ```
 
-## 📋 Tapşırıq 3: Bütün Modellərdə fillable və one-to-many əlaqələri yaradın
+## Tapşırıq 3: Bütün Modellərdə fillable və one-to-many əlaqələri yaradın
 
-## 📋 Tapşırıq 4: Seeder Yaratmaq (Fake data yaradın)
+## Tapşırıq 4: Seeder Yaratmaq (Fake data yaradın)
 
 ### Author üçün
 ```
@@ -129,7 +129,7 @@
 php artisan db:seed
 ```
 
-## 📋 Tapşırıq 5: Aşağıdakı view-ları yaradın
+## Tapşırıq 5: Aşağıdakı view-ları yaradın
 
 app.blade.php - İçində başlıq və navbar olacaq
 butun_kitablar.blade.php - Bütün kitablar burada görsənəcək 
@@ -137,7 +137,7 @@ kitab_yarat.blade.php - Yeni kitab yaratmaq üçün form olacaq
 axtaris.blade.php - İçində kitabı adı ilə axtarmaq, Kitab tarixinə görə sıralamaq, Kitab səhifəsinə görə sıralama düymələri olacaq
 
 
-## 📋 Tapşırıq 6: KitabxanaController yaradın
+## Tapşırıq 6: KitabxanaController yaradın
 
 index() - bütün kitabları qaytarır (GET)
 yeni_kitab_goster() - kitab formunu göstərir (GET)
@@ -145,4 +145,4 @@ yeni_kitab_yarat() - kitab-ı databazaya əlavə edir (POST)
 axtaris_goster() - Axtarıs formunu göstərəck (GET) 
 axtaris() - Axtarıs nəticələrini filterləyib göstərəcək (POST) 
 
-## 📋 Tapşırıq 7: web.php - də route-ları yaradın
+## Tapşırıq 7: web.php - də route-ları yaradın
