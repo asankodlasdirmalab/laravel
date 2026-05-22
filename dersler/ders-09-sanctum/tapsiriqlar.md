@@ -1,4 +1,4 @@
-# **Dərs 9: Laravel Sanctum 
+# **Dərs 9: Laravel Sanctum**
 
 
 ## **Tapşırıq 1 — Layihəyə sanctum əlavə edin **
