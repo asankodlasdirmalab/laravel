@@ -21,6 +21,8 @@ Dərs 10 Tapşırıqlar
     ```
     php artisan make:model Role -m
     php artisan make:model Permission -m
+    php artisan make:migration create_role_user_table
+    php artisan make:migration create_permission_role_table
 
     ```
 12. Aşağıdakı columnları əlavə edin
@@ -115,7 +117,7 @@ Dərs 10 Tapşırıqlar
     }
 
     ```
-16. Seeder-a əlavə edin
+16. Seeder-a əlavə edin və çalışdırın ``php artisan db:seed``
 
     ```
 
