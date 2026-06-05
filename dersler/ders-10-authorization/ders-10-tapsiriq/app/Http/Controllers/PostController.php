@@ -13,7 +13,7 @@ class PostController extends Controller
     {
         $post->load("user");
 
-        return view('post', compact("post"));
+        return view('post_edit', compact("post"));
     }
 
     public function create()
