@@ -5,7 +5,7 @@ Dərs 10 Tapşırıqlar
 3. update-post Icazəsini PostController-də tətbiq edin
 4. Gate ilə post silmək icazəsi yaradın, ancaq postun sahibi postu silə bilər və Controller-də tətbiq edin
 5. Post Policy yaradın ``php artisan make:policy PostPolicy --model=Post``
-6. Policy ``AppServiceProvider``-ə əlavə edin 
+6. Policy ``AppServiceProvider``-ə əlavə edin
 7. Policy ilə view, create, update, delete icazələri yaradın
 
    ```
@@ -21,8 +21,6 @@ Dərs 10 Tapşırıqlar
     ```
     php artisan make:model Role -m
     php artisan make:model Permission -m
-    php artisan make:migration create_role_user_table
-    php artisan make:migration create_permission_role_table
 
     ```
 12. Aşağıdakı columnları əlavə edin
